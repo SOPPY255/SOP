@@ -33,7 +33,7 @@ ugen = []
 #Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/123.0.0.0
 for xd in range(10000):
     a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['8','9', '10', '11', '12', '13', '14', '15'])
+    b=random.choice(['8.0.0','9.0.0', '10.0.0', '11.0.0', '12.0.0'])
     j='SM-G955U Build/R16NW'
     c='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     d=random.randrange(20, 999)
