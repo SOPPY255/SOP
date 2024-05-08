@@ -33,14 +33,14 @@ ugen = []
 #Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/123.0.0.0
 for xd in range(10000):
     a='Mozilla/5.0 (iPad; CPU OS'
-    b=random.choice(['17_4_1'])
+    b=random.choice(['16_4'])
     j='like Mac OS X'
     c='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21E236 [FBAN/FBIOS;FBAV/'
     d=random.randrange(100, 999)
-    e='0.0'
+    e='0'
     f=random.randrange(2000, 6000)
     g=random.randrange(20, 200)
-    h='FBBV/594465045;FBDV/iPad13,18;FBMD/iPad;FBSN/iPadOS;FBSV/17.4.1;FBSS/2;FBID/tablet;FBLC/nl_NL;FBOP/5;FBRV/0'
+    h='FBBV/594465045;FBDV/iPad13,18;FBMD/iPad;FBSN/iPadOS;FBSV/16.4;FBSS/2;FBID/tablet;FBLC/nl_NL;FBOP/5;FBRV/0'
     ua=f'{a} {b} {j}) {c}{d}.{e}.{f}.{g} {h}'
     ugen.append(ua)
 A = '\x1b[1;97m' 
